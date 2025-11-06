@@ -1,0 +1,87 @@
+[index.html](https://github.com/user-attachments/files/23403050/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Denial SB | Photographer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0a0a0a;
+      color: #eaeaea;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #b388ff;
+      margin-bottom: 0.3em;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #bbb;
+      margin-bottom: 2em;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      max-width: 280px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #eaeaea;
+      border: 1px solid #b388ff;
+      border-radius: 10px;
+      padding: 12px 0;
+      transition: 0.3s;
+      font-weight: 500;
+      background-color: transparent;
+    }
+
+    a:hover {
+      background-color: #b388ff;
+      color: #0a0a0a;
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    .accent {
+      color: #b388ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Denial SB</h1>
+  <p>I'm a <span class="accent">photographer</span>.</p>
+
+  <div class="links">
+    <a href="https://www.instagram.com/denial.sb" target="_blank">Instagram</a>
+    <a href="https://bere.al/denialmax" target="_blank">BeReal</a>
+    <a href="https://music.apple.com/profile/denialsb" target="_blank">Apple Music</a>
+  </div>
+
+  <footer>© 2025 Denial SB</footer>
+</body>
+</html>
